@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+#accueil header {
+	background-image: url(../img/tour_eiffel_b.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	height: 64em;
+}
+
+#accueil header h1 {
+    margin: 3em 0 3em 0;
+}
+
+#accueil header h1, header h2 {
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 4.5em;
+}
+
+/*sera présent sur toutes les pages*/
+header nav {
+	text-align: center;
+	background: -moz-linear-gradient(top,  rgba(0,0,0,1) 1%, rgba(0,0,0,1) 44%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 1%,rgba(0,0,0,1) 44%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(0,0,0,1) 1%,rgba(0,0,0,1) 44%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+	height: 8.3em;
+}
+
+header li {
+	display: inline;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 3em;
+    padding-right: 1em;
+}
+
+section:first-of-type {
+    background-color: rgba(158, 158, 158, 0.32);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+section:nth-child(2) {
+	background-image: url(../img/paris_bus.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 0em;
+    background-attachment: fixed;
+    height: 68em;
+}
+
+section:nth-child(2) h2 {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(58, 47, 113);
+    color: white;
+    text-align: center;
+    font-size: 3em;
+}
+
+#map_list {
+    width: 100%;
+    height: 400px;
+}
+
+#formap {
+	border: 1px solid blue;
+    background-color: rgba(255, 235, 59, 0.37);
+    box-shadow: 0px 10px 20px lightslategrey;
+    margin-left: 2.4em;
+    margin-right: 2.4em;
+    padding: 2em;
+    height: 55em;
+}
+
+#formap h3 {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+label {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#map {
+    height: 470px;
+}
+
+#ballade h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    color: cornsilk;
+}
+
+#ballade img {
+    width: 45rem;
+    height: 30rem;
+}
+
+
+
+#ballade article:first-of-type{
+    display: inline-block;
+    text-align: center;
+    background-color: grey;
+    border: 4px solid grey;
+    margin-top: 10em;
+    margin-left: 10em;
+}
+
+/*Prévoir les media screen, responsive design impératif*/
