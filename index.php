@@ -60,22 +60,22 @@
 				</section>
 			</section>
 
-			<section>
+			<section id="places">
 				<h2>Les places principales</h2>
 
 				<article >
 					<a href="#"><h3>Trocadero et le Champs de Mars</h3></a>
-					<a href="#"><img src="img/peniche_paris.jpg" alt="peniche sur la Seine"></a>
+					<a href="#"><img src="img/img_monuments/trocadero_tour_eiffel.jpg" alt="vue de la tour eiffel de Trocadero"></a>
 				</article>
 					
 				<article>
 					<a href="#"><h3>Les champs Elysées</h3></a>
-					<a href="#"><img src="img/bus_tourisme_paris.jpg"></a>
+					<a href="#"><img src="img/img_monuments/champs_elysees_illuminations.jpg"></a>
 				</article>
 
 				<article>
 					<a href="#"><h3>Monmartre et le Sacré Coeur</h3></a>
-					<a href="#"><img src="img/bus_tourisme_paris.jpg"></a>
+					<a href="#"><img src="img/img_monuments/montmartre.jpg"></a>
 				</article>
 			</section>
 		</main>

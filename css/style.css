@@ -150,6 +150,15 @@ label {
     height: 34em;
 }
 
+#places {
+    background-image: url(../img/patterns/background.jpg);
+}
+
+#places img {
+    width: 43rem;
+    height: 30rem;
+}
+
 
 
 /*Prévoir les media screen, responsive design impératif*/
