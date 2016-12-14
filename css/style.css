@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Days+One');
 
 *{
 	margin: 0;
@@ -14,6 +15,7 @@ ul {
 
 a {
 	text-decoration: none;
+    color: none;
 }
 
 #accueil header {
@@ -45,12 +47,20 @@ header nav {
 	height: 8.3em;
 }
 
+nav span {
+    font-family: 'Days One', sans-serif;
+    font-size: 3.2em;
+    color: lightsteelblue;
+    position: absolute;
+    left: 0.4em;
+}
+
 header li {
-	display: inline;
+    display: inline;
     font-family: 'Ubuntu', sans-serif;
     color: white;
     font-size: 3em;
-    padding-right: 1em;
+    margin-right: 1em;
 }
 
 section:first-of-type {
@@ -117,15 +127,29 @@ label {
     height: 30rem;
 }
 
+#transports {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3em;
+}
 
 
-#ballade article:first-of-type{
+#transports article:first-of-type{
     display: inline-block;
     text-align: center;
     background-color: grey;
     border: 4px solid grey;
-    margin-top: 10em;
-    margin-left: 10em;
+    height: 34em;
 }
+
+#transports article:last-of-type {
+    display: inline-block;
+    text-align: center;
+    background-color: grey;
+    border: 4px solid grey;
+    height: 34em;
+}
+
+
 
 /*Prévoir les media screen, responsive design impératif*/

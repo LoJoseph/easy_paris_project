@@ -9,10 +9,10 @@
 	</head>
 
 	<body>
-		<!-- Header à placer en include sur les autres pages -->
+		<!-- nav à placer en include sur les autres pages -->
 		<header>
 			<nav>
-				<span>VisitParis</span>
+				<a href="index.php"><span>MyParis</span></a>
 				<ul>
 					<a href="#"><li>Monuments</li></a>
 					<a href="#"><li>Musées</li></a>
@@ -21,7 +21,7 @@
 			</nav>
 
 			<article id="title_accueil">
-					<h1>Visit Paris</h1>
+					<h1>My Paris</h1>
 					<h2>Tout Paris à portée de main!</h2>
 			</article>
 			
@@ -47,19 +47,36 @@
 			<section id="ballade">
 				<h2>Vous ballader autrement</h2>
 
-				<article>
-					<h3>Les péniches</h3>
-					<img src="img/peniche_paris.jpg" alt="peniche sur la Seine">
-				</article>
-				
-				<article>
-					<h3>Bus de tourisme</h3>
-
-				</article>
+				<section id="transports">
+					<article >
+						<a href="#"><h3>Les péniches</h3></a>
+						<a href="#"><img src="img/peniche_paris.jpg" alt="peniche sur la Seine"></a>
+					</article>
+					
+					<article>
+						<a href="#"><h3>Bus de tourisme</h3></a>
+						<a href="#"><img src="img/bus_tourisme_paris.jpg"></a>
+					</article>
+				</section>
 			</section>
 
 			<section>
-				<h2>Les principaux monuments</h2>
+				<h2>Les places principales</h2>
+
+				<article >
+					<a href="#"><h3>Trocadero et le Champs de Mars</h3></a>
+					<a href="#"><img src="img/peniche_paris.jpg" alt="peniche sur la Seine"></a>
+				</article>
+					
+				<article>
+					<a href="#"><h3>Les champs Elysées</h3></a>
+					<a href="#"><img src="img/bus_tourisme_paris.jpg"></a>
+				</article>
+
+				<article>
+					<a href="#"><h3>Monmartre et le Sacré Coeur</h3></a>
+					<a href="#"><img src="img/bus_tourisme_paris.jpg"></a>
+				</article>
 			</section>
 		</main>
 
