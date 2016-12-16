@@ -24,7 +24,6 @@
 					<h1>My Paris</h1>
 					<h2>Tout Paris à portée de main!</h2>
 			</article>
-			
 		</header>
 
 		<main>
@@ -63,19 +62,21 @@
 			<section id="places">
 				<h2>Les places principales</h2>
 
-				<article >
-					<a href="#"><h3>Trocadero et le Champs de Mars</h3></a>
-					<a href="#"><img src="img/img_monuments/trocadero_tour_eiffel.jpg" alt="vue de la tour eiffel de Trocadero"></a>
-				</article>
-					
 				<article>
-					<a href="#"><h3>Les champs Elysées</h3></a>
-					<a href="#"><img src="img/img_monuments/champs_elysees_illuminations.jpg"></a>
-				</article>
+					<article>
+						<a href="#"><img src="img/img_monuments/trocadero_tour_eiffel.jpg" alt="vue de la tour eiffel de Trocadero"></a>
+						<a href="#"><h3>Trocadero et le Champs de Mars</h3></a>
+					</article>
+						
+					<article>
+						<a href="#"><img src="img/img_monuments/champs_elysees_illuminations.jpg"></a>
+						<a href="#"><h3>Les champs Elysées</h3></a>
+					</article>
 
-				<article>
-					<a href="#"><h3>Monmartre et le Sacré Coeur</h3></a>
-					<a href="#"><img src="img/img_monuments/montmartre.jpg"></a>
+					<article>
+						<a href="#"><img src="img/img_monuments/montmartre.jpg"></a>
+						<a href="#"><h3>Monmartre et le Sacré Coeur</h3></a>
+					</article>
 				</article>
 			</section>
 		</main>

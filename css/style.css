@@ -72,7 +72,7 @@ section:first-of-type {
     padding-bottom: 3em;
 }
 
-section:nth-child(2) {
+#transports {
 	background-image: url(../img/paris_bus.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -87,6 +87,7 @@ section:nth-child(2) h2 {
     color: white;
     text-align: center;
     font-size: 3em;
+    padding: 0.3em 0;
 }
 
 #map_list {
@@ -130,11 +131,11 @@ label {
 #transports {
     display: flex;
     justify-content: space-around;
-    margin-top: 3em;
+    padding-top: 5em;
 }
 
 
-#transports article:first-of-type{
+#transports article:first-of-type {
     display: inline-block;
     text-align: center;
     background-color: grey;
@@ -151,12 +152,43 @@ label {
 }
 
 #places {
-    background-image: url(../img/patterns/background.jpg);
+    background-image: url(../img/patterns/formal_back.jpg);
+    padding-bottom: 7em;
+}
+
+#places h2 {
+    background-color: #08449e;
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    padding: 0.3em 0;
+    margin-bottom: 5em;
+}
+
+#places > article {
+    display: flex;
+    justify-content: space-around;
+}
+
+#places > article article {
+    width: 30%;
+    border: 11px solid #fffee9;
+    background-color: #fffee9;
+    border-radius: 0.8em;
+}
+
+#places h3 {
+    text-align: center;
+    font-family: 'Covered By Your Grace', cursive;
+    color: black;
+    font-size: 3.2rem;
+    background-color: #fffee9;
+    padding: 0.3em 0 0.3em 0;
 }
 
 #places img {
-    width: 43rem;
-    height: 30rem;
+    width: 100%;
+    height: 28rem;
 }
 
 
