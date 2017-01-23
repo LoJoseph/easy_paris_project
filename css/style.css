@@ -9,6 +9,7 @@
 html {
 	font-size: 62.5%;
 }
+
 ul {
 	list-style-type: none;
 }
@@ -103,10 +104,13 @@ section:nth-child(2) h2 {
     margin-right: 2.4em;
     padding: 2em;
     height: 55em;
+    padding-bottom: 6em;
 }
 
 #formap h3 {
 	font-family: 'Ubuntu', sans-serif;
+    font-size: 4.2em;
+    text-align: center;
 }
 
 label {
@@ -153,10 +157,11 @@ label {
 
 #places {
     background-image: url(../img/patterns/formal_back.jpg);
-    padding-bottom: 7em;
+    padding-bottom: 10em;
 }
 
 #places h2 {
+    font-family: 'Ubuntu', sans-serif;
     background-color: #08449e;
     font-size: 3em;
     text-align: center;
@@ -175,6 +180,7 @@ label {
     border: 11px solid #fffee9;
     background-color: #fffee9;
     border-radius: 0.8em;
+    box-shadow: 0px 8px 10px black;
 }
 
 #places h3 {

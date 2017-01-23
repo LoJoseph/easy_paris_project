@@ -31,12 +31,9 @@
 			<!-- Formulaire et carte interactive -->
 				<article id="formap">
 					<h3>Qu'est-ce qui vous intéresse?</h3>
-					<form action="index.php">
-						<input type="checkbox" name="monument_box">
-						<label>Les monuments</label><br>
-						<input type="checkbox" name="musees_box">
-						<label>Les musées</label><br>
-						<input type="submit" name="okButton" value="Valider">
+					<form id="choices_form" action="index.php">
+						<input type="button" name="musees" id="choice_musee" value="Les musées">
+						<input type="button" name="musees" id="choice_monuments" value="Les monuments">
 					</form>
 				
 					<div id="map"></div>
@@ -47,7 +44,7 @@
 				<h2>Vous ballader autrement</h2>
 
 				<section id="transports">
-					<article >
+					<article>
 						<a href="#"><h3>Les péniches</h3></a>
 						<a href="#"><img src="img/peniche_paris.jpg" alt="peniche sur la Seine"></a>
 					</article>
@@ -60,7 +57,7 @@
 			</section>
 
 			<section id="places">
-				<h2>Les places principales</h2>
+				<h2>Les places majeurs</h2>
 
 				<article>
 					<article>
@@ -75,7 +72,7 @@
 
 					<article>
 						<a href="#"><img src="img/img_monuments/montmartre.jpg"></a>
-						<a href="#"><h3>Monmartre et le Sacré Coeur</h3></a>
+						<a href="#"><h3>Montmartre et le Sacré Coeur</h3></a>
 					</article>
 				</article>
 			</section>
@@ -85,8 +82,12 @@
 			
 		</footer>
 
+		<script src="https://code.jquery.com/jquery-1.12.3.js"   integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc="   crossorigin="anonymous"></script>
+
 		<script src="js/script.js"></script>
 
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAI03zC_JBH5Tm6YBrRvlr1vPI5E3SUegE&signed_in=true&callback=initMap" async defer></script>
+
+
 	</body>
 </html>
