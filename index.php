@@ -2,10 +2,12 @@
 
 <html id="accueil">
 	<head>
-		<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+		<!-- <meta name="viewport" content="initial-scale=1.0, user-scalable=no"> -->
 		<meta charset="utf-8">
 		<title>Visit Paris | Accueil</title>
+		<link rel="stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+
 	</head>
 
 	<body>
@@ -13,6 +15,8 @@
 		<header>
 			<nav>
 				<a href="index.php"><span>MyParis</span></a>
+				<span id="list_icon" class="fa fa-list" aria-hidden="true"></span>
+
 				<ul>
 					<a href="#"><li>Monuments</li></a>
 					<a href="#"><li>Musées</li></a>
