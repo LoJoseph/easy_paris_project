@@ -349,8 +349,16 @@ label {
         right: 0.7em;
     }
 
+    #formap {
+        height: 43em;
+    }
+
     #formap h3 {
         font-size: 2.3em;
+    }
+
+    #map {
+        height: 39em;
     }
 
     #choices_form {
@@ -399,6 +407,23 @@ label {
     #ballade img {
         width: 20rem;
         height: 15rem;
+    }
+
+    #places > article {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    #places > article article {
+        width: 75%;
+        margin: auto;
+        margin-bottom: 2em;
+    }
+
+    #places img {
+        width: 100%;
+        height: 20rem;
     }
 }
 

@@ -7,7 +7,6 @@
 		<title>Visit Paris | Accueil</title>
 		<link rel="stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-
 	</head>
 
 	<body>
@@ -90,7 +89,7 @@
 
 		<script src="js/script.js"></script>
 
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAI03zC_JBH5Tm6YBrRvlr1vPI5E3SUegE&signed_in=true&callback=initMap" async defer></script>
+		<?php include_once 'inc/j_templates_parts/script_link_maps.php'; ?>
 
 
 	</body>
