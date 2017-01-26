@@ -367,17 +367,15 @@ label {
     }
 
     section:nth-child(2) h2 {
-        font-family: 'Ubuntu', sans-serif;
-        background-color: rgb(58, 47, 113);
-        color: white;
-        text-align: center;
         font-size: 2em;
         padding: -0.7em 0;
     }
 
     #transports {
+        background-image: url('../img/portraits/peniche_seine.jpg');
         display: flex;
         flex-direction: column;
+        background-size: 34em 57em;
     }
 
     #transports article {
@@ -393,11 +391,11 @@ label {
     }
 
     #transports article:first-of-type {
-        height: 19em;
+        height: 21em;
     }
 
-        #transports article:last-of-type {
-        height: 19em;
+    #transports article:last-of-type {
+        height: 21em;
     }
 
     #ballade h3 {
@@ -407,6 +405,143 @@ label {
     #ballade img {
         width: 20rem;
         height: 15rem;
+    }
+
+    #places h2 {
+        font-size: 2.5em;
+    }
+
+    #places > article {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    #places > article article {
+        width: 75%;
+        margin: auto;
+        margin-bottom: 2em;
+    }
+
+    #places img {
+        width: 100%;
+        height: 20rem;
+    }
+}
+
+/*iPhone 6, 6s*/
+@media screen and (max-width: 375px) and (max-height: 667px) {
+    nav span {
+        font-size: 2.5em;
+    }
+
+    header ul {
+        position: absolute;
+        margin-left: 37.5em;
+    }
+
+    #accueil header {
+    background-image: url(../img/portraits/pont_al_3.jpg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-attachment: fixed;
+    height: 75em;
+    }
+
+    #accueil header h1 {
+        margin: 2.2em 0 2em 0;
+    }
+
+    #accueil header h2 {
+        font-size: 4em;
+    }
+
+    #accueil header h1 {
+        margin: 1.2em 0 2em 0;
+    }
+
+    header li {
+        text-align: left;
+        font-family: 'Ubuntu', sans-serif;
+        color: white;
+        font-size: 1.7em;
+        display: block;
+    }
+
+    #list_icon {
+        position: absolute;
+        color: white;
+        margin-right: 0em;
+        font-size: 2.1em;
+        margin-top: 0.5em;
+        right: 0.7em;
+    }
+
+    #formap {
+        height: 54em;
+    }
+
+    #formap h3 {
+        font-size: 2.3em;
+    }
+
+    #map {
+        height: 50em;
+    }
+
+    #choices_form {
+        text-align: center;
+        margin: 0.5em 0 1em 0;
+    }
+
+/*    section:first-of-type {
+        padding-top: 7em;
+        padding-bottom: 8em;
+    }*/
+
+    section:nth-child(2) h2 {
+        font-size: 2em;
+        padding: -0.7em 0;
+    }
+
+    #transports {
+        background-image: url('../img/portraits/peniche_seine.jpg');
+        display: flex;
+        flex-direction: column;
+        background-size: 40em 68em;
+    }
+
+    #transports article {
+        display: inline-block;
+        text-align: center;
+        background-color: grey;
+        border: 3px solid grey;
+        margin-bottom: 5em;
+        width: 65%;
+        margin: auto;
+        margin-top: 5em;
+        margin-bottom: 3em;
+    }
+
+    #transports article:first-of-type {
+        height: 21em;
+    }
+
+    #transports article:last-of-type {
+        height: 21em;
+    }
+
+    #ballade h3 {
+        font-size: 2.4rem;
+    }
+
+    #ballade img {
+        width: 22rem;
+        height: 17rem;
+    }
+
+    #places h2 {
+        font-size: 2.5em;
     }
 
     #places > article {
@@ -469,5 +604,23 @@ label {
         font-size: 2.1em;
         margin-top: 0.5em;
         right: 0.7em;
+    }
+
+    #formap h3 {
+        font-size: 2.5em;
+    }
+
+        #choices_form {
+        text-align: center;
+        margin: 0.5em 0 1em 0;
+    }
+
+    #map {
+        height: 51em;
+       }
+
+    section:nth-child(2) h2 {
+        font-size: 2em;
+        padding: -0.7em 0;
     }
 }

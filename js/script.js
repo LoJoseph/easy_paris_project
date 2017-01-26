@@ -45,7 +45,6 @@ function initMap() {
 					url: 'js/json/liste_musees_paris.json',
 					success: function(data) {
 
-						// console.log(data); }
 						for (var i = 0; i<data.length; i++) {
 							console.log(data[i]);
 
@@ -86,15 +85,6 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
 	                        'Error: The Geolocation service failed.' :
 	                        'Error: Your browser doesn\'t support geolocation.');
 }
-
-	
-			
-// var infoWindow = new google.maps.InfoWindow();
-
-// Affichage des musées sur la map
-
-
-
 
 // Animations
 

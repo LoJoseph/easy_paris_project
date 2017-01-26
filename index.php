@@ -12,17 +12,8 @@
 	<body>
 		<!-- nav à placer en include sur les autres pages -->
 		<header>
-			<nav>
-				<a href="index.php"><span>MyParis</span></a>
-				<span id="list_icon" class="fa fa-list" aria-hidden="true"></span>
-
-				<ul>
-					<a href="#"><li>Monuments</li></a>
-					<a href="#"><li>Musées</li></a>
-					<a href="#"><li>Les plus belles vues</li></a>
-				</ul>
-			</nav>
-
+			<?php include_once 'inc/nav.inc.php'; ?>
+			
 			<article id="title_accueil">
 					<h1>My Paris</h1>
 					<h2>Tout Paris à portée de main!</h2>
@@ -48,13 +39,13 @@
 
 				<section id="transports">
 					<article>
-						<a href="#"><h3>Les péniches</h3></a>
+						<a href="#"><h3>Les bateaux-mouches</h3></a>
 						<a href="#"><img src="img/peniche_paris.jpg" alt="peniche sur la Seine"></a>
 					</article>
 					
 					<article>
-						<a href="#"><h3>Bus de tourisme</h3></a>
-						<a href="#"><img src="img/bus_tourisme_paris.jpg"></a>
+						<a href="#"><h3>Les bus de tourisme</h3></a>
+						<a href="bus_tours.php"><img src="img/bus_tourisme_paris.jpg"></a>
 					</article>
 				</section>
 			</section>
