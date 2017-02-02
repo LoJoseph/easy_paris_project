@@ -10,7 +10,6 @@
 	</head>
 
 	<body>
-		<!-- nav à placer en include sur les autres pages -->
 		<header>
 			<?php include_once 'inc/nav.inc.php'; ?>
 			
