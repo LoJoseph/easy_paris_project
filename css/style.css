@@ -36,6 +36,7 @@ a {
 	text-align: center;
 	color: white;
 	font-size: 5.5em;
+    display: none;
 }
 
 /*sera présent sur toutes les pages*/
@@ -55,6 +56,7 @@ nav a span:first-of-type {
     position: absolute;
     left: 0.4em;
 }
+
 
 nav ul {
     margin-top: -1em;
@@ -100,6 +102,18 @@ section:nth-child(2) h2 {
     height: 400px;
 }
 
+#show_map {
+
+}
+
+#choices_form {
+    text-align: center;
+}
+
+#choices_form input {
+    display: none;
+}
+
 #formap {
 	border: 1px solid blue;
     background-color: rgba(255, 235, 59, 0.37);
@@ -107,8 +121,9 @@ section:nth-child(2) h2 {
     margin-left: 2.4em;
     margin-right: 2.4em;
     padding: 2em;
-    height: 55em;
+    height: 5em;
     padding-bottom: 6em;
+    text-align: center;
 }
 
 #formap h3 {
@@ -123,6 +138,15 @@ label {
 
 #map, #map_bigbus, #map_foxity, #map_openTour {
     height: 470px;
+}
+
+#map {
+    z-index: -1;
+    opacity: 0;
+}
+
+#hide_map {
+    display: none;
 }
 
 #ballade h3 {
@@ -141,7 +165,6 @@ label {
     justify-content: space-around;
     padding-top: 20em;
 }
-
 
 #transports article:first-of-type {
     display: inline-block;
@@ -206,7 +229,8 @@ label {
 #bus_tour {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
-    background-color: #f2f1ae4d;
+    background-color: #408ccf;
+    background-image: url(../img/patterns/bus_background/hexellence.png); 
 }
 
 #bus_tour h1 {

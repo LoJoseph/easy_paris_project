@@ -24,6 +24,8 @@
 			<!-- Formulaire et carte interactive -->
 				<article id="formap">
 					<h3>Qu'est-ce qui vous intéresse?</h3>
+					<button id="show_map">Afficher la carte interactive</button>
+					<button id="hide_map">Masquer la carte</button>
 					<form id="choices_form" action="index.php">
 						<input type="button" name="musees" id="choice_musee" value="Les musées">
 						<input type="button" name="musees" id="choice_monuments" value="Les monuments">
@@ -78,6 +80,8 @@
 		<script src="https://code.jquery.com/jquery-1.12.3.js"   integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc="   crossorigin="anonymous"></script>
 
 		<script src="js/script.js"></script>
+
+		<?php include_once 'inc/anim_link.php'; ?>
 
 		<?php include_once 'inc/j_templates_parts/script_link_maps.php'; ?>
 

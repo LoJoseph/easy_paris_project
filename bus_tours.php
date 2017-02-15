@@ -48,6 +48,8 @@
 
 		<script src="js/bus_script.js"></script>
 
+		<?php include_once 'inc/anim_link.php'; ?>
+
 		<?php include_once 'inc/j_templates_parts/script_link_maps.php'; ?>
 	</body>
 </html>
