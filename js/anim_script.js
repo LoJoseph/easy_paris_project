@@ -6,7 +6,8 @@ $(document).ready(function() {
 
 	// changement de coulour du logo quand le pointeur est dessus
 	$('#logo').on('mouseenter', function() {
-		$(this).css({'color': '#9fff00', 'transition': '0.5s'});
+		$(this).css({'color': '#9fff00',
+					 'transition': '0.5s'});
 
 	});
 
@@ -14,6 +15,7 @@ $(document).ready(function() {
 		$(this).css('color', 'lightsteelblue');
 	});
 
+	// changement de propriétés css lorque le pointeur est sur un des 'li'
 	$('header li').on('mouseenter', function() {
 		$(this).css({'border-top-style': 'solid', 'border-top-width': '3px',
 					'border-top-color': '#0015fb', 'text-shadow': '0px 6px 5px blue'});
@@ -23,6 +25,15 @@ $(document).ready(function() {
 		$(this).css({'border-top-color': 'black', 'text-shadow': 'none'});
 	});
 
+	// if (window.location.href.indexOf('monuments.php') > 0) {
+		
+	// };
+
+	$('header li').on('click', function() {
+		$(this).addClass('selected');
+	});
+
+	// Partie affichage de la map
 	var showMap = $('#show_map');
 	var hideMap = $('#hide_map');
 

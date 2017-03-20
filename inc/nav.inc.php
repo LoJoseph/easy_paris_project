@@ -7,4 +7,9 @@
 					<a href="#"><li id="nav_musees">Musées</li></a>
 					<a href="#"><li id="nav_vues">Les plus belles vues</li></a>
 				</ul>
+
+				<ul id="lang">
+					<li><img src="img/flags/united_kingdom_640.png" alt="drapeau du Royaume-Uni"></li>
+					<li><img src="img/flags/japan-Flag.png" alt="drapeau du Jappon"></li>
+				</ul>
 			</nav>

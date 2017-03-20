@@ -59,8 +59,31 @@ nav a span:first-of-type {
 
 
 nav ul {
-    margin-top: -1em;
+    display: inline-block;
+    margin-top:  0.3em;
 }
+
+#lang {
+    display: inline-block;
+    /*margin-top: -2em;*/
+}
+
+#lang li {
+    margin-right: 1.2em;
+}
+
+#lang img {
+    width: 41px;
+    height: 30px;
+    position: absolute;
+    margin-top: 5px;
+}
+
+#lang img:last-of-type {
+    padding-left: 0.2em;
+}
+
+
 
 header li {
     display: inline;
@@ -68,6 +91,10 @@ header li {
     color: white;
     font-size: 3em;
     margin-right: 1em;
+}
+
+.selected {
+    color: chartreuse;
 }
 
 #accueil section:first-of-type {
@@ -102,8 +129,17 @@ section:nth-child(2) h2 {
     height: 400px;
 }
 
-#show_map {
+.button {
+    padding: 1em;
+    border: 2px solid darkviolet;
+    background-color: rgb(31, 192, 192, 0.39);
+    border-radius: 10px;
+    cursor: pointer;
+}
 
+.button:hover {
+    background-color: rgb(31, 192, 192, 0.85);
+    transition: 0.6s;
 }
 
 #choices_form {

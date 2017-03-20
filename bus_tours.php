@@ -21,8 +21,9 @@
 			<section>
 				<h3>L'Open Tour</h3>
 				<img src="img/open_tour.jpg">
+				<button id="openLine" class="button">Ligne</button>
 				<div id="map_openTour"></div>
-				<a href="http://www.paris.opentour.com/fr/">Lien pour visiter Open Tour</a>
+				<a href="http://www.paris.opentour.com/fr/">Voir les autres lignes sur paris.opentour.com</a>
 			</section>
 
 			<section>
