@@ -46,13 +46,25 @@ $(document).ready(function() {
 		hideMap.fadeIn(500);
 
 
-	hideMap.on('click', function() {
-		$('#map').css({'opacity': '0', 'z-index': '-1', 'transition': '1s'});
-		$('#formap').css({'height': '5em', 'transition': '0.5s'});
-		$('#choice_musee').fadeOut(1000);
-		$('#choice_monuments').fadeOut(1000);
-		hideMap.hide();
-		showMap.fadeIn(500);
-		});
+		hideMap.on('click', function() {
+			$('#map').css({'opacity': '0', 'z-index': '-1', 'transition': '1s'});
+			$('#formap').css({'height': '5em', 'transition': '0.5s'});
+			$('#choice_musee').fadeOut(200);
+			$('#choice_monuments').fadeOut(200);
+			hideMap.hide();
+			showMap.fadeIn(500);
+			});
+	});
+
+	$('.button').on('mouseenter', function() {
+		$(this).css({'background-color': 'rgb(31, 192, 192, 0.85)', 'transition': '0.6s'})
+	});
+
+	$('.button').on('mouseleave', function(){
+		$(this).css({'background-color': 'rgb(31, 192, 192, 0.39)', 'transition': '0.6s'})
+	});
+
+	$('.button').on('click', function() {
+		$(this).css({'background-color': 'rgb(110, 221, 21)', 'transition': 'none'});
 	});
 });

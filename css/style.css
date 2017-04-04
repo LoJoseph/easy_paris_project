@@ -77,6 +77,7 @@ nav ul {
     height: 30px;
     position: absolute;
     margin-top: 5px;
+    cursor: pointer;
 }
 
 #lang img:last-of-type {
@@ -137,10 +138,6 @@ section:nth-child(2) h2 {
     cursor: pointer;
 }
 
-.button:hover {
-    background-color: rgb(31, 192, 192, 0.85);
-    transition: 0.6s;
-}
 
 #choices_form {
     text-align: center;
@@ -151,7 +148,7 @@ section:nth-child(2) h2 {
 }
 
 #formap {
-	border: 1px solid blue;
+    border: 1px solid blue;
     background-color: rgba(255, 235, 59, 0.37);
     box-shadow: 0px 10px 20px lightslategrey;
     margin-left: 2.4em;
@@ -163,13 +160,13 @@ section:nth-child(2) h2 {
 }
 
 #formap h3 {
-	font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 4.2em;
     text-align: center;
 }
 
 label {
-	font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #map, #map_bigbus, #map_foxity, #map_openTour {
@@ -265,7 +262,7 @@ label {
 #bus_tour {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
-    background-color: #408ccf;
+    background-color: #eade554d;
     background-image: url(../img/patterns/bus_background/hexellence.png); 
 }
 
@@ -273,11 +270,13 @@ label {
     margin-top: 1em;
     margin-bottom: 0.5em;
     font-size: 5em;
+    color: #253d81;
 }
 
 #bus_tour h2 {
     font-size: 3em;
     margin-bottom: 1em;
+    color: #253d81;
 }
 
 #bus_tour h3 {
@@ -290,10 +289,30 @@ label {
     margin: auto;
     margin-bottom: 4em;
     background-color: white;
+    border: 2px solid deepskyblue;
+    box-shadow: 0px 7px 14px #2b459f;
 }
 
 #bus_tour section img {
     width: 100%;
+}
+
+#openLine_button {
+    position: absolute;
+    right: 44.6em;
+    top: 80em;
+}
+
+#foxity_button {
+    position: absolute;
+    right: 44.6em;
+    top: 174.7em;;
+}
+
+#bigB_button {
+    position: absolute;
+    right: 44.6em;
+    top: 287em;
 }
 
 #bus_tour section a {

@@ -1,12 +1,13 @@
 function initMap() {
-	// var map = new google.maps.Map(document.getElementById('map'), {
-	//     center: {lat: 48.8582171, lng: 2.3307914},
-	//     zoom: 11
-	// });
+
+	var mapOpenTour = new google.maps.Map(document.getElementById('map_openTour'), {
+	    center: {lat: 48.8582171, lng: 2.3307914},
+	    zoom: 13
+	});
 
 	var mapFoxity = new google.maps.Map(document.getElementById('map_foxity'), {
 	    center: {lat: 48.8582171, lng: 2.3307914},
-	    zoom: 11
+	    zoom: 16
 	});
 
 	var mapBigbus = new google.maps.Map(document.getElementById('map_bigbus'), {
@@ -14,10 +15,6 @@ function initMap() {
 	    zoom: 11
 	});
 
-	var mapOpenTour = new google.maps.Map(document.getElementById('map_openTour'), {
-	    center: {lat: 48.8582171, lng: 2.3307914},
-	    zoom: 11
-	});
 
 	var infoWindow = new google.maps.InfoWindow({map: mapFoxity});
 
@@ -74,9 +71,28 @@ function initMap() {
 								new google.maps.LatLng(48.867826, 2.313849), //Champs-Elysées Clemenceau
 								new google.maps.LatLng(48.870507, 2.305390), //La Boétie-Champs-Elysées
 								new google.maps.LatLng(48.872057, 2.300590), //Georges V
+								new google.maps.LatLng(48.872990, 2.297640),
+								new google.maps.LatLng(48.873593, 2.295779),
+								new google.maps.LatLng(48.873778, 2.295851),
+								new google.maps.LatLng(48.873919, 2.295838),
+								new google.maps.LatLng(48.874072, 2.295717),
+								new google.maps.LatLng(48.874215, 2.295519),
+								new google.maps.LatLng(48.874277, 2.295350),
+								new google.maps.LatLng(48.874307, 2.295109),
+								new google.maps.LatLng(48.874305, 2.294921),
+								new google.maps.LatLng(48.874229, 2.294653),
+								new google.maps.LatLng(48.874116, 2.294460),
+								new google.maps.LatLng(48.873968, 2.294334),
+								new google.maps.LatLng(48.873862, 2.294310),
+								new google.maps.LatLng(48.873680, 2.294310),
+								new google.maps.LatLng(48.873532, 2.294417),
+								new google.maps.LatLng(48.873454, 2.294500),
+								new google.maps.LatLng(48.873396, 2.294621),
+								new google.maps.LatLng(48.873334, 2.294707),
+								new google.maps.LatLng(48.873211, 2.294608),
 								new google.maps.LatLng(48.871879, 2.293616), //Charles de Gaulle-Etoile
 								new google.maps.LatLng(48.864085, 2.287827), //Trocadéro
-								new google.maps.LatLng(48.863792, 2.290629),
+								new google.maps.LatLng(48.863792, 2.290629), // rep av du pres wilson
 								new google.maps.LatLng(48.862818, 2.291777),
 								new google.maps.LatLng(48.860275, 2.291428),
 								new google.maps.LatLng(48.858934, 2.293416),
@@ -158,7 +174,7 @@ function initMap() {
 				});
 			};
 			
-			$('#openLine').on('click', function() {
+			$('#openLine_button').on('click', function() {
 				afficherLigneOt();
 			});
 		});

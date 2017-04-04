@@ -10,6 +10,6 @@
 
 				<ul id="lang">
 					<li><img src="img/flags/united_kingdom_640.png" alt="drapeau du Royaume-Uni"></li>
-					<li><img src="img/flags/japan-Flag.png" alt="drapeau du Jappon"></li>
+					<li><img src="img/flags/japan-Flag.png" alt="drapeau du Japon"></li>
 				</ul>
 			</nav>
