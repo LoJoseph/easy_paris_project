@@ -60,13 +60,74 @@ function initMap() {
 
 							var ligneOt = [
 								new google.maps.LatLng(48.872676, 2.328758), //Auber
+								new google.maps.LatLng(48.872747, 2.328828),
+								new google.maps.LatLng(48.871835, 2.330561),
+								new google.maps.LatLng(48.871579, 2.330947),
+								new google.maps.LatLng(48.871103, 2.331856),
+								new google.maps.LatLng(48.870604, 2.332073),
+								new google.maps.LatLng(48.870604, 2.332073),
 								new google.maps.LatLng(48.869860, 2.332608), // 4 septembre
 								new google.maps.LatLng(48.864135, 2.335109), //Palais Royal - Comédie Française
-								new google.maps.LatLng(48.861337, 2.334531), //Musée du Louvre
-								new google.maps.LatLng(48.856563, 2.341384), //Pont-neuf - Quai des orfèvres
+								new google.maps.LatLng(48.863246, 2.335506),
+								// new google.maps.LatLng(48.863885, 2.335225),
+								new google.maps.LatLng(48.863183, 2.335482),
+								new google.maps.LatLng(48.862678, 2.335187),
+								new google.maps.LatLng(48.862207, 2.334683),
+								new google.maps.LatLng(48.861828, 2.334179), //Musée du Louvre
+								new google.maps.LatLng(48.861720, 2.333857),
+								new google.maps.LatLng(48.861566, 2.333699),
+								new google.maps.LatLng(48.861372, 2.333680),
+								new google.maps.LatLng(48.861222, 2.333795),
+								new google.maps.LatLng(48.861128, 2.333811),
+								new google.maps.LatLng(48.860992, 2.333744),
+								new google.maps.LatLng(48.860175, 2.333250),
+								new google.maps.LatLng(48.860127, 2.333317),
+								new google.maps.LatLng(48.859382, 2.336584),
+								new google.maps.LatLng(48.859112, 2.339062),
+								new google.maps.LatLng(48.858720, 2.341438),
+								new google.maps.LatLng(48.858545, 2.342452),
+								new google.maps.LatLng(48.858243, 2.342240),
+								new google.maps.LatLng(48.858243, 2.342240),
+								new google.maps.LatLng(48.857181, 2.341382),
+								new google.maps.LatLng(48.857181, 2.341382),
+								new google.maps.LatLng(48.856936, 2.341157),
+								new google.maps.LatLng(48.856936, 2.341157), //Pont-neuf - Quai des orfèvres
+								new google.maps.LatLng(48.856624, 2.341557),
+								new google.maps.LatLng(48.855655, 2.342662),
+								new google.maps.LatLng(48.855007, 2.343434),
+								new google.maps.LatLng(48.854361, 2.344917),
+								new google.maps.LatLng(48.855438, 2.345947),
+								new google.maps.LatLng(48.857125, 2.347095),
+								new google.maps.LatLng(48.857189, 2.347390),
+								new google.maps.LatLng(48.856748, 2.348930),
+								new google.maps.LatLng(48.855781, 2.348415),
+								new google.maps.LatLng(48.855781, 2.348415),
 								new google.maps.LatLng(48.853876, 2.347259), // Notre Dame
+								new google.maps.LatLng(48.853084, 2.346797),
 								new google.maps.LatLng(48.853562, 2.345000), //Saint-Michel
+								new google.maps.LatLng(48.853836, 2.344158),
+								new google.maps.LatLng(48.854747, 2.342275),
+								new google.maps.LatLng(48.857352, 2.338295),
+								new google.maps.LatLng(48.857541, 2.337919),
+								new google.maps.LatLng(48.857889, 2.336216),
+								new google.maps.LatLng(48.857843, 2.335326),
+								new google.maps.LatLng(48.858902, 2.331308),
+								new google.maps.LatLng(48.859827, 2.328497),
 								new google.maps.LatLng(48.861202, 2.323809), // Musée d'Orsay
+								new google.maps.LatLng(48.861500, 2.322961),
+								new google.maps.LatLng(48.862679, 2.319066),
+								new google.maps.LatLng(48.864733, 2.320536),
+								new google.maps.LatLng(48.864740, 2.321019),
+								new google.maps.LatLng(48.865947, 2.321952),
+								new google.maps.LatLng(48.866039, 2.321990),
+								new google.maps.LatLng(48.866099, 2.321982),
+								new google.maps.LatLng(48.866099, 2.321982),
+								new google.maps.LatLng(48.866210, 2.321908),
+								new google.maps.LatLng(48.866307, 2.321684),
+								new google.maps.LatLng(48.866342, 2.321512),
+								new google.maps.LatLng(48.866328, 2.321362),
+								new google.maps.LatLng(48.866286, 2.321233),
+								new google.maps.LatLng(48.866236, 2.321180),
 								new google.maps.LatLng(48.865597, 2.320753), //Concorde
 								new google.maps.LatLng(48.867826, 2.313849), //Champs-Elysées Clemenceau
 								new google.maps.LatLng(48.870507, 2.305390), //La Boétie-Champs-Elysées
@@ -92,8 +153,31 @@ function initMap() {
 								new google.maps.LatLng(48.873211, 2.294608),
 								new google.maps.LatLng(48.871879, 2.293616), //Charles de Gaulle-Etoile
 								new google.maps.LatLng(48.864085, 2.287827), //Trocadéro
+								new google.maps.LatLng(48.863778, 2.287604),
+								new google.maps.LatLng(48.863703, 2.287589),
+								new google.maps.LatLng(48.863639, 2.287683),
+								new google.maps.LatLng(48.863436, 2.287517),
+								new google.maps.LatLng(48.863461, 2.287211),
+								new google.maps.LatLng(48.863426, 2.286980),
+								new google.maps.LatLng(48.863292, 2.286631),
+								new google.maps.LatLng(48.863179, 2.286540),
+								new google.maps.LatLng(48.863045, 2.286460),
+								new google.maps.LatLng(48.862872, 2.286487),
+								new google.maps.LatLng(48.862681, 2.286664),
+								new google.maps.LatLng(48.862547, 2.286932),
+								new google.maps.LatLng(48.862515, 2.287216),
+								new google.maps.LatLng(48.862970, 2.287913),
+								new google.maps.LatLng(48.863217, 2.288455),
 								new google.maps.LatLng(48.863792, 2.290629), // rep av du pres wilson
+								new google.maps.LatLng(48.863594, 2.290924),
+								new google.maps.LatLng(48.863223, 2.291487),
+								new google.maps.LatLng(48.862994, 2.291718),
 								new google.maps.LatLng(48.862818, 2.291777),
+								new google.maps.LatLng(48.862776, 2.291857),
+								new google.maps.LatLng(48.862472, 2.291830),
+								new google.maps.LatLng(48.862345, 2.291830),
+								new google.maps.LatLng(48.861120, 2.291390),
+								new google.maps.LatLng(48.860608, 2.290891),
 								new google.maps.LatLng(48.860275, 2.291428),
 								new google.maps.LatLng(48.858934, 2.293416),
 								new google.maps.LatLng(48.860847, 2.296071),
@@ -148,12 +232,18 @@ function initMap() {
 								new google.maps.LatLng(48.864859, 2.321175),
 								new google.maps.LatLng(48.866080, 2.321990),
 								new google.maps.LatLng(48.866299, 2.321754),
-								new google.maps.LatLng(48.867349, 2.322516) // 18
-								// new google.maps.LatLng(),
-								// new google.maps.LatLng(),
-								// new google.maps.LatLng(),
-								// new google.maps.LatLng(),
-								// new google.maps.LatLng(),
+								new google.maps.LatLng(48.867349, 2.322516), // 18
+								new google.maps.LatLng(48.869336, 2.323943),
+								new google.maps.LatLng(48.869322, 2.324423),
+								new google.maps.LatLng(48.870208, 2.325075),
+								new google.maps.LatLng(48.870570, 2.325367),
+								new google.maps.LatLng(48.870681, 2.325512),
+								new google.maps.LatLng(48.870840, 2.325067),
+								new google.maps.LatLng(48.872705, 2.326459),
+								new google.maps.LatLng(48.873368, 2.326888),
+								new google.maps.LatLng(48.873768, 2.327172),
+								new google.maps.LatLng(48.873593, 2.327333),
+								new google.maps.LatLng(48.872958, 2.328470)							
 							];
 
 							var parcoursOt = new google.maps.Polyline({

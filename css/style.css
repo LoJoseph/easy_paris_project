@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 @import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Days+One');
 
+/*test prise en compte*/
 *{
 	margin: 0;
 	padding: 0;
@@ -133,7 +134,7 @@ section:nth-child(2) h2 {
 .button {
     padding: 1em;
     border: 2px solid darkviolet;
-    background-color: rgb(31, 192, 192, 0.39);
+    background-color: rgba(31, 192, 192, 0.39);
     border-radius: 10px;
     cursor: pointer;
 }

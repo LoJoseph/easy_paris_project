@@ -8,7 +8,6 @@ $(document).ready(function() {
 	$('#logo').on('mouseenter', function() {
 		$(this).css({'color': '#9fff00',
 					 'transition': '0.5s'});
-
 	});
 
 	$('#logo').on('mouseleave', function() {
@@ -57,14 +56,14 @@ $(document).ready(function() {
 	});
 
 	$('.button').on('mouseenter', function() {
-		$(this).css({'background-color': 'rgb(31, 192, 192, 0.85)', 'transition': '0.6s'})
+		$(this).css({'background-color': 'rgba(31, 192, 192, 0.85)', 'transition': '0.6s'})
 	});
 
 	$('.button').on('mouseleave', function(){
-		$(this).css({'background-color': 'rgb(31, 192, 192, 0.39)', 'transition': '0.6s'})
+		$(this).css({'background-color': 'rgba(31, 192, 192, 0.39)', 'transition': '0.6s'})
 	});
 
 	$('.button').on('click', function() {
-		$(this).css({'background-color': 'rgb(110, 221, 21)', 'transition': 'none'});
+		$(this).css({'background-color': 'rgba(110, 221, 21)', 'transition': 'none'});
 	});
 });
