@@ -69,7 +69,6 @@ function initMap() {
 								new google.maps.LatLng(48.869860, 2.332608), // 4 septembre
 								new google.maps.LatLng(48.864135, 2.335109), //Palais Royal - Comédie Française
 								new google.maps.LatLng(48.863246, 2.335506),
-								// new google.maps.LatLng(48.863885, 2.335225),
 								new google.maps.LatLng(48.863183, 2.335482),
 								new google.maps.LatLng(48.862678, 2.335187),
 								new google.maps.LatLng(48.862207, 2.334683),

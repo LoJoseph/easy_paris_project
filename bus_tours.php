@@ -21,7 +21,7 @@
 			<section>
 				<h3>L'Open Tour</h3>
 				<img src="img/open_tour.jpg">
-				<button id="openLine_button" class="button">Afficher une des lignes</button>
+				<button id="openLine_button" class="button">Afficher un des circuits</button>
 				<div id="map_openTour"></div>
 				<a href="http://www.paris.opentour.com/fr/">Voir les autres lignes sur paris.opentour.com</a>
 			</section>
@@ -29,7 +29,7 @@
 			<section>
 				<h3>Foxity</h3>
 				<img src="img/foxity_bus.jpg">
-				<button id="foxity_button" class="button">Afficher une des lignes</button>
+				<button id="foxity_button" class="button">Afficher un des circuits</button>
 				<div id="map_foxity"></div>
 				<a href="http://www.foxity.com/visite-de-paris-en-bus-imperiale/horaires-foxity.php">Lien pour visiter Foxity</a>
 			</section>
@@ -37,10 +37,11 @@
 			<section>
 				<h3>BigBus Paris</h3>
 				<img src="img/bigbus.jpg">
-				<button id="bigB_button" class="button">Afficher une des lignes</button>
+				<button id="bigB_button" class="button">Afficher un des circuits</button>
 				<div id="map_bigbus"></div>
 				<a href="https://www.bigbustours.com/fr/paris/visites-paris-bus/">Lien vers BigBus paris</a>
 			</section>
+
 		</main>
 
 		<footer>

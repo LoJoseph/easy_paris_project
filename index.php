@@ -40,12 +40,12 @@
 
 				<section id="transports">
 					<article>
-						<a href="#"><h3>Les bateaux-mouches</h3></a>
-						<a href="#"><img src="img/peniche_paris.jpg" alt="peniche sur la Seine"></a>
+						<a href="boats.php"><h3>Les bateaux-mouches</h3></a>
+						<a href="boats.php"><img src="img/peniche_paris.jpg" alt="peniche sur la Seine"></a>
 					</article>
 					
 					<article>
-						<a href="#"><h3>Les bus de tourisme</h3></a>
+						<a href="bus_tours.php"><h3>Les bus de tourisme</h3></a>
 						<a href="bus_tours.php"><img src="img/bus_tourisme_paris.jpg"></a>
 					</article>
 				</section>
