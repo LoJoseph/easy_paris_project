@@ -19,10 +19,16 @@
 
 		<article>
 			<h3>Bateaux Parisiens</h3>
+			<img src="img/bateaux/bateaux_parisiens.jpg">
+			<div id="map_bateauxParisiens"></div>
+			<a href="http://www.bateaux-mouches.fr/fr">Pour plus d'informations, cliquez ici!</a>
 		</article>
 
 		<article>
-			<h3></h3>
+			<h3>Bateaux mouches</h3>
+			<img src="img/bateaux/bateauxMouches.jpg">
+			<div id="map_bateauxMouches"></div>
+			<a href="http://www.bateauxparisiens.com/fr/croisieres-promenades/croisieres-commentees.html">Pour plus d'informations, cliquez ici!</a>
 		</article>
 
 		<footer>
