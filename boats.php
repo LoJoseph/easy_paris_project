@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
-<html>
+
+<html id="boatPage">
 	<head>
 		<meta charset="utf-8">
 		<title></title>
@@ -13,23 +14,27 @@
 			<?php include_once 'inc/nav.inc.php'; ?>
 		</header>
 
-		<h1>Les Bateaux-Mouches</h1>
+		<article id="Boat_titles">
+			<h1>Les Bateaux-Mouches</h1>
 
-		<h2>Montez à bord d'un des bateaux-mouches pour voir la ville sous un autre angle</h2>
-
-		<article>
-			<h3>Bateaux Parisiens</h3>
-			<img src="img/bateaux/bateaux_parisiens.jpg">
-			<div id="map_bateauxParisiens"></div>
-			<a href="http://www.bateaux-mouches.fr/fr">Pour plus d'informations, cliquez ici!</a>
+			<h2>Montez à bord d'un des bateaux-mouches pour voir la ville sous un autre angle</h2>
 		</article>
+		
+		<section id="boatEnterprises">
+			<article id="bateauxParisiens">
+				<h3>Bateaux Parisiens</h3>
+				<img src="img/bateaux/bateaux_parisiens.jpg">
+				<div id="map_bateauxParisiens"></div>
+				<a href="http://www.bateaux-mouches.fr/fr">Pour plus d'informations, cliquez ici!</a>
+			</article>
 
-		<article>
-			<h3>Bateaux mouches</h3>
-			<img src="img/bateaux/bateauxMouches.jpg">
-			<div id="map_bateauxMouches"></div>
-			<a href="http://www.bateauxparisiens.com/fr/croisieres-promenades/croisieres-commentees.html">Pour plus d'informations, cliquez ici!</a>
-		</article>
+			<article id="bateauxMouches">
+				<h3>Bateaux mouches</h3>
+				<img src="img/bateaux/bateauxMouches.jpg">
+				<div id="map_bateauxMouches"></div>
+				<a href="http://www.bateauxparisiens.com/fr/croisieres-promenades/croisieres-commentees.html">Pour plus d'informations, cliquez ici!</a>
+			</article>
+		</section>
 
 		<footer>
 			

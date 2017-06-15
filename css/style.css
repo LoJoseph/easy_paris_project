@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 @import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Days+One');
 
-/*test prise en compte*/
 *{
 	margin: 0;
 	padding: 0;
@@ -260,11 +259,10 @@ label {
 
 /*____page bus_tours_____*/
 
-#bus_tour {
+#bus_tour, #boatPage {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
-    background-color: #eade554d;
-    background-image: url(../img/patterns/bus_background/hexellence.png); 
+    /*background-image: url(../img/patterns/bus_background/hexellence.png); */
 }
 
 #bus_tour h1 {
@@ -285,7 +283,7 @@ label {
     background-color: #3fcba84d;
 }
 
-#bus_tour section {
+#bus_tour section, #bateauxParisiens, #bateauxMouches {
     width: 90%;
     margin: auto;
     margin-bottom: 4em;
@@ -319,6 +317,46 @@ label {
 #bus_tour section a {
     font-size: 2em;
 }
+
+
+/*____Page Bateaux mouches____*/
+
+#Boat_titles  {
+    background-image: url(../img/bateaux/boat_titles.jpg);
+    height: 27em;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -2em;
+    margin-top: 4em;
+    margin-bottom: 5em;
+}
+
+#boatPage h1 {
+    font-size: 5em;
+    padding-top: 0.5em;
+    color: powderblue;
+}
+
+#boatPage h2 {
+    font-size: 4em;
+    padding-top: 0.5em;
+    color: honeydew;
+}
+
+#boatEnterprises img {
+    width: 100%;
+}
+
+#boatEnterprises h3 {
+    font-size: 3.2em;
+}
+
+#boatEnterprises a {
+    text-decoration: none;
+    color: steelblue;
+    font-size: 2em;
+}
+
 
 
 
