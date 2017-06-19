@@ -169,7 +169,7 @@ label {
     font-family: 'Ubuntu', sans-serif;
 }
 
-#map, #map_bigbus, #map_foxity, #map_openTour {
+#map, #map_bigbus, #map_foxity, #map_openTour, #map_bateauxParisiens, #map_bateauxMouches {
     height: 470px;
 }
 
@@ -321,6 +321,10 @@ label {
 
 /*____Page Bateaux mouches____*/
 
+/*#boatPage {
+    
+}*/
+
 #Boat_titles  {
     background-image: url(../img/bateaux/boat_titles.jpg);
     height: 27em;
@@ -341,10 +345,12 @@ label {
     font-size: 4em;
     padding-top: 0.5em;
     color: honeydew;
+    text-shadow: 2px 2px black;
 }
 
 #boatEnterprises img {
     width: 100%;
+    height: 60em;
 }
 
 #boatEnterprises h3 {

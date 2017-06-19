@@ -24,6 +24,7 @@
 			<article id="bateauxParisiens">
 				<h3>Bateaux Parisiens</h3>
 				<img src="img/bateaux/bateaux_parisiens.jpg">
+				<button id="BateauxPar_button" class="button">Afficher un des circuits</button>
 				<div id="map_bateauxParisiens"></div>
 				<a href="http://www.bateaux-mouches.fr/fr">Pour plus d'informations, cliquez ici!</a>
 			</article>
@@ -42,7 +43,7 @@
 
 		<script src="https://code.jquery.com/jquery-1.12.3.js"   integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc="   crossorigin="anonymous"></script>
 
-		<script src="js/bus_script.js"></script>
+		<script src="js/boat_script.js"></script>
 
 		<?php include_once 'inc/anim_link.php'; ?>
 
