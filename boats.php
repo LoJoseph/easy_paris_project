@@ -26,14 +26,15 @@
 				<img src="img/bateaux/bateaux_parisiens.jpg">
 				<button id="BateauxPar_button" class="button">Afficher un des circuits</button>
 				<div id="map_bateauxParisiens"></div>
-				<a href="http://www.bateaux-mouches.fr/fr">Pour plus d'informations, cliquez ici!</a>
+				<a href="http://www.bateauxparisiens.com/fr/croisieres-promenades/croisieres-commentees.html">Pour plus d'informations, cliquez ici!</a>
 			</article>
 
 			<article id="bateauxMouches">
 				<h3>Bateaux mouches</h3>
 				<img src="img/bateaux/bateauxMouches.jpg">
+				<button id="BateauxMou_button" class="button">Afficher un des circuits</button>
 				<div id="map_bateauxMouches"></div>
-				<a href="http://www.bateauxparisiens.com/fr/croisieres-promenades/croisieres-commentees.html">Pour plus d'informations, cliquez ici!</a>
+				<a href="http://www.bateaux-mouches.fr/fr">Pour plus d'informations, cliquez ici!</a>
 			</article>
 		</section>
 
