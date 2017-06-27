@@ -5,7 +5,7 @@ function initMap() {
 	});
 
 	var mapBateauxMouches = new google.maps.Map(document.getElementById('map_bateauxMouches'), {
-	    center: {lat: 48.8582171, lng: 2.3307914},
+	    center: {lat: 48.862177, lng: 2.305901},
 	    zoom: 16
 	});
 
@@ -23,12 +23,37 @@ function initMap() {
 	});
 
 	// position de la Tour Eiffel
-	var eiffel_tower_icon = 'img/icones/tour_eiffel.png'
+	var eiffel_tower_icon = 'img/icones/tour_eiffel.png';
+
+	// position de Notre Dame
+	var notreDameIcon = 'img/icones/notre_dame_de_paris.png';
+
+	
+
+
 	var eiffelTowerMarker = new google.maps.Marker ({
 									position: new google.maps.LatLng(48.857470, 2.294531),
 									map: mapBateauxParisien,
 									icon: eiffel_tower_icon
 								 });
+
+	var eiffelTowerMarker2 = new google.maps.Marker ({
+									position: new google.maps.LatLng(48.857470, 2.294531),
+									map: mapBateauxMouches,
+									icon: eiffel_tower_icon
+								 });
+
+	var notreDameMarker = new google.maps.Marker ({
+								position: new google.maps.LatLng(48.8529682,2.3477134),
+								map: mapBateauxParisien,
+								icon: notreDameIcon
+	});
+
+	var notreDameMarker2 = new google.maps.Marker ({
+								position: new google.maps.LatLng(48.8529682,2.3477134),
+								map: mapBateauxMouches,
+								icon: notreDameIcon
+	});
 
 	function afficherTourBp() {
 		var tourBateauxParisiens = [
@@ -123,14 +148,10 @@ function initMap() {
 	function afficherTourBmouches() {
 		var tourBateauxMouches = [
 			
-			new google.maps.LatLng(48.862144, 2.296174),
-			new google.maps.LatLng(48.862811, 2.298797),
-			new google.maps.LatLng(48.862998, 2.299752),
-			new google.maps.LatLng(48.863069, 2.300036),
-			new google.maps.LatLng(48.863143, 2.300379),
-			new google.maps.LatLng(48.863182, 2.300717),
-			new google.maps.LatLng(48.863221, 2.301157),
-			new google.maps.LatLng(48.863306, 2.302841),
+			new google.maps.LatLng(48.863888, 2.305585),
+			new google.maps.LatLng(48.863796, 2.305513),
+			new google.maps.LatLng(48.863553, 2.305556),
+			new google.maps.LatLng(48.863412, 2.305921),
 			new google.maps.LatLng(48.863313, 2.306339),
 			new google.maps.LatLng(48.863581, 2.316843),
 			new google.maps.LatLng(48.863525, 2.317798),
@@ -172,7 +193,7 @@ function initMap() {
 			new google.maps.LatLng(48.864065, 2.318690),
 			new google.maps.LatLng(48.864113, 2.318551),
 			new google.maps.LatLng(48.864148, 2.318422),
-			new google.maps.LatLng(48.863702, 2.302278)
+			new google.maps.LatLng(48.863807, 2.305944)
 		];
 
 		var parcoursBm = new google.maps.Polyline({
